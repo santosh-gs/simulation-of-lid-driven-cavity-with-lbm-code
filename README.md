@@ -1,1 +1,1 @@
-# simulation-of-lid-driven-cavity-code
+# Simulation of Lid Driven Cavity using Lattice Boltzmann Method (Code)
