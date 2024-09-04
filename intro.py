@@ -21,3 +21,13 @@ def Allocate_Memory():
     V = np.zeros((Nodes_X, Nodes_Y), float)
     Weight = np.array([4/9, 1/9, 1/9, 1/9, 1/9, 1/36, 1/36, 1/36, 1/36])
     C = np.array([[0,0],[1,0],[0,1],[-1,0],[0,-1],[1,1],[-1,1],[-1,-1],[1,-1]])
+
+def Initialise():
+    global Nodes_X, Nodes_Y, U, V, Initial_Density, Density, f, feq, Walls
+
+    U.fill(0)
+    V.fill(0)
+    Density.fill(Initial_Density)
+    Walls[0,:] = Walls[Nodes_Y-1,:] = Walls[:,0] = Walls[:,Nodes_X-1] = 1
+    compute_feq()
+    f = feq.copy()
