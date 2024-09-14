@@ -77,20 +77,14 @@ def Stream() :
         for j in range(Nodes_Y-1, 0, -1) :
             f[i][j][8] = f[i+1][j-1][8]
 
-def bounceback() :
-    global  Nodes_X, Nodes_Y, Walls, U, V
-    for i in range(Nodes_X) :
-        for j in range(Nodes_Y) :
-            if Walls[i][j] == 1 :
-                temp = f[i][j][1]
-                f[i][j][1] = f[i][j][3]
-                f[i][j][3] = temp
-                temp = f[i][j][5]
-                f[i][j][5] = f[i][j][7]
-                f[i][j][7] = temp
-                temp = f[i][j][2]
-                f[i][j][2] = f[i][j][4]
-                f[i][j][4] = temp
+def bounceback():
+    global Nodes_X, Nodes_Y, Walls, U, V
+    for i in range(Nodes_X):
+        for j in range(Nodes_Y):
+            if Walls[i][j] == 1:
+                f[i][j][1], f[i][j][3] = f[i][j][3], f[i][j][1]
+                f[i][j][5], f[i][j][7] = f[i][j][7], f[i][j][5]
+                f[i][j][2], f[i][j][4] = f[i][j][4], f[i][j][2]
 
 def Compute_Fields() :
     global Nodes_X, Nodes_Y, NDir, Density, U, V, C, f, err
