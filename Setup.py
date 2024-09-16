@@ -13,3 +13,5 @@ extensions = [Extension(
 setup(
     ext_modules = cythonize(extensions, compiler_directives={'boundscheck': False, 'cdivision': False}, annotate = True, language_level = 3), include_dirs=[numpy.get_include()]
 )
+
+# # python setup.py build_ext --inplace
