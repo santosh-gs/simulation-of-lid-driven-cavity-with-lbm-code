@@ -1,7 +1,7 @@
-# Simulation of Lid Driven Cavity using LBM and Parallel Processing (Code)
+# Multi-Processing Simulation of a Lid Driven Cavity using LBM
 
 ### Simulation Results for Re = 3000
-These are the results obtained using the Cython code for Reynold's Number = 3000.
+These are the results obtained using the Cython code for 60X60 Nodes at Reynolds Number = 3000.
 
 #### Time Step: 2000
 ![t2000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%202000.png?raw=true)
