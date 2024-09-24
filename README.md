@@ -1,4 +1,4 @@
-# Simulation of Lid Driven Cavity using Lattice Boltzmann Method (Code)
+# Simulation of Lid Driven Cavity using LBM and Parallel Processing (Code)
 
 ### Simulation Results for Re = 3000
 These are the results obtained using the Cython code for Reynold's Number = 3000.
