@@ -24,6 +24,6 @@ These are the tested environment requirements:
 * Cython 0.29.33
 * NumPy 1.21.6
 * Matplotlib 3.4.1
-
+* Microsoft C++ Build Tools 2014 or later [(2022)](https://visualstudio.microsoft.com/visual-cpp-build-tools/) [(Instructions)](https://github.com/bycloudai/InstallVSBuildToolsWindows)
 
 
