@@ -15,7 +15,7 @@ These are the results obtained using the Cython code for 60X60 Nodes at Reynolds
 #### Time Step: 60000
 ![t60000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2060000.png?raw=true)
 
-#### Time Step: 100_000
+#### Time Step: 100,000
 ![t100000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true)
 
 ### Requirements
@@ -34,14 +34,12 @@ These are the tested environment specifications:
 * Analyze the data using `lbm_output.py` or MATLAB.
 
 #### Cython
-* Clone the Repo: `git clone https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code.git`
+* Clone the repo: `git clone https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code.git`
 * Or add the following files to a folder: `LBM_Cython.pyx` `LBM_Cython.py` `setup.py`
 * Open the cloned or defined folder in VS Code or any code editor. Alternatively, navigate to the folder in a terminal.
 * Define the simulation parameters in the `LBM_Cython.pyx`.
 * Run `python setup.py build_ext --inplace` in the terminal of the code editor.
-* `.pyd` file will be generated after successful compilation.
+* A `.pyd` file will be generated after successful compilation in case of Windows.
+* For macOS and Linux, a `.so` (shared object) file will be generated.
 * Now run the `LBM_Cython.py` python file to generate `UV_Cython.plt`.
 * Analyze the data using `lbm_output.py` or MATLAB.
-
-
-
