@@ -23,6 +23,7 @@ These are the tested environment specifications:
 * Python 3.9.13
 * Cython 0.29.33
 * NumPy 1.21.6
+* Setuptools 58.1.0
 * Matplotlib 3.4.1
 * Microsoft C++ Build Tools 2014 or later [(2022)](https://visualstudio.microsoft.com/visual-cpp-build-tools/) [(Instructions)](https://github.com/bycloudai/InstallVSBuildToolsWindows)
 
