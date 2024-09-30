@@ -3,20 +3,26 @@
 ### Simulation Results
 These are the results obtained using the Cython code for 60X60 Nodes at Reynolds Number = 3000.
 
-#### Time Step: 2000
-![t2000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%202000.png?raw=true)
+#### Time Step: 2000, 10000, 40000, 60000, 100000
 
-#### Time Step: 10000
-![t10000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2010000.png?raw=true)
+<div style="display: flex; justify-content: space-between;">
 
-#### Time Step: 40000
-![t40000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2040000.png?raw=true)
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%202000.png?raw=true" width="50%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2010000.png?raw=true" width="50%" />
 
-#### Time Step: 60000
-![t60000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2060000.png?raw=true)
+</div>
 
-#### Time Step: 100,000
-![t100000](https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true)
+<div style="display: flex; justify-content: space-between;">
+
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2040000.png?raw=true" width="50%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2060000.png?raw=true" width="50%" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true" width="75%" />
+
+</div>
 
 ### Requirements
 These are the tested environment specifications:
