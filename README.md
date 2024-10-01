@@ -7,20 +7,20 @@ These are the results obtained using the Cython code for 60X60 Nodes at Reynolds
 
 <div style="display: flex; justify-content: space-between;">
 
-  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%202000.png?raw=true" width="50%" />
-  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2010000.png?raw=true" width="50%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%202000.png?raw=true" width="49%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2010000.png?raw=true" width="49%" />
 
 </div>
 
 <div style="display: flex; justify-content: space-between;">
 
-  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2040000.png?raw=true" width="50%" />
-  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2060000.png?raw=true" width="50%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2040000.png?raw=true" width="49%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2060000.png?raw=true" width="49%" />
 </div>
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: space-between;">
 
-  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true" width="50%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true" width="49%" />
 
 </div>
 
