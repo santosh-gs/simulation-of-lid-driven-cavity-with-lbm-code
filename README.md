@@ -18,9 +18,9 @@ These are the results obtained using the Cython code for 60X60 Nodes at Reynolds
   <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%2060000.png?raw=true" width="50%" />
 </div>
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: center;">
 
-  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true" width="75%" />
+  <img src="https://github.com/santosh-gs/simulation-of-lid-driven-cavity-with-lbm-code/blob/main/results/Re%203000%20and%20t%20100_000.png?raw=true" width="50%" />
 
 </div>
 
